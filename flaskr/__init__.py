@@ -29,4 +29,10 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
+    # a simple page that says pong
+    @app.route('/ping')
+    def ping():
+        return 'pong'
+
+
     return app
