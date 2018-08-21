@@ -1,3 +1,7 @@
+# Exclude pidifles
+
+*.pid
+
 # Flask tutorial
 venv/
 
